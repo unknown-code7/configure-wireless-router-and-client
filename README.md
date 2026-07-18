@@ -77,7 +77,9 @@ flowchart TD
 
     class Internet,Web internet;
     class Splitter,Modem,Router infra;
-    class Sala,Quarto,Escritorio,TV clientes;```
+    class Sala,Quarto,Escritorio,TV clientes;
+```
+
 ---
 
 # 🏠 Estrutura do Laboratório
