@@ -71,15 +71,14 @@ flowchart TD
     Router --> Quarto
     Router --> Escritorio
 
-    classDef internet fill:#FFF8DC,stroke:#F39C12,stroke-width:2px;
-    classDef infra fill:#E3F2FD,stroke:#1565C0,stroke-width:2px;
-    classDef clientes fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px;
+    %% Adicionada a cor preta (#000) e o negrito (font-weight:bold) em todas as classes:
+    classDef internet fill:#FFF8DC,stroke:#F39C12,stroke-width:2px,color:#000000,font-weight:bold;
+    classDef infra fill:#E3F2FD,stroke:#1565C0,stroke-width:2px,color:#000000,font-weight:bold;
+    classDef clientes fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px,color:#000000,font-weight:bold;
 
     class Internet,Web internet;
     class Splitter,Modem,Router infra;
     class Sala,Quarto,Escritorio,TV clientes;
-```
-
 ---
 
 # 🏠 Estrutura do Laboratório
